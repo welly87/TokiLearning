@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 - BukitDanLembah", "BukitDanLembah\BukitDanLembah.vcxproj", "{BB7F4F85-F6DC-45DD-BE2C-5F9CFAC102D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - PerkalianPakDengklek", "PerkalianPakDengklek\PerkalianPakDengklek.vcxproj", "{A9C5518C-89C3-4F80-9BC5-05DB2233C0D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 - BoladanGelas", "BoladanGelas\BoladanGelas.vcxproj", "{0951E65C-0E91-4C54-90DA-BCBE89D09582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3A - Simulasi", "3A - Simulasi", "{2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bab 03 - Ad Hoc", "Bab 03 - Ad Hoc", "{4D08F3D8-4311-4981-ACC5-38C0A3BFE06C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - ParkirTruk", "ParkirTruk\ParkirTruk.vcxproj", "{9967912F-EFC0-4E35-9D6E-0B9829D78A71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 - TinggiKandangSusun", "02 - TinggiKandangSusun\02 - TinggiKandangSusun.vcxproj", "{D93638D9-ABC3-4BEA-B918-3739A4243706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB7F4F85-F6DC-45DD-BE2C-5F9CFAC102D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB7F4F85-F6DC-45DD-BE2C-5F9CFAC102D8}.Debug|Win32.Build.0 = Debug|Win32
+		{BB7F4F85-F6DC-45DD-BE2C-5F9CFAC102D8}.Release|Win32.ActiveCfg = Release|Win32
+		{BB7F4F85-F6DC-45DD-BE2C-5F9CFAC102D8}.Release|Win32.Build.0 = Release|Win32
+		{A9C5518C-89C3-4F80-9BC5-05DB2233C0D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9C5518C-89C3-4F80-9BC5-05DB2233C0D6}.Debug|Win32.Build.0 = Debug|Win32
+		{A9C5518C-89C3-4F80-9BC5-05DB2233C0D6}.Release|Win32.ActiveCfg = Release|Win32
+		{A9C5518C-89C3-4F80-9BC5-05DB2233C0D6}.Release|Win32.Build.0 = Release|Win32
+		{0951E65C-0E91-4C54-90DA-BCBE89D09582}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0951E65C-0E91-4C54-90DA-BCBE89D09582}.Debug|Win32.Build.0 = Debug|Win32
+		{0951E65C-0E91-4C54-90DA-BCBE89D09582}.Release|Win32.ActiveCfg = Release|Win32
+		{0951E65C-0E91-4C54-90DA-BCBE89D09582}.Release|Win32.Build.0 = Release|Win32
+		{9967912F-EFC0-4E35-9D6E-0B9829D78A71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9967912F-EFC0-4E35-9D6E-0B9829D78A71}.Debug|Win32.Build.0 = Debug|Win32
+		{9967912F-EFC0-4E35-9D6E-0B9829D78A71}.Release|Win32.ActiveCfg = Release|Win32
+		{9967912F-EFC0-4E35-9D6E-0B9829D78A71}.Release|Win32.Build.0 = Release|Win32
+		{D93638D9-ABC3-4BEA-B918-3739A4243706}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D93638D9-ABC3-4BEA-B918-3739A4243706}.Debug|Win32.Build.0 = Debug|Win32
+		{D93638D9-ABC3-4BEA-B918-3739A4243706}.Release|Win32.ActiveCfg = Release|Win32
+		{D93638D9-ABC3-4BEA-B918-3739A4243706}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0951E65C-0E91-4C54-90DA-BCBE89D09582} = {2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD}
+		{BB7F4F85-F6DC-45DD-BE2C-5F9CFAC102D8} = {2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD}
+		{A9C5518C-89C3-4F80-9BC5-05DB2233C0D6} = {2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD}
+		{9967912F-EFC0-4E35-9D6E-0B9829D78A71} = {2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD}
+		{D93638D9-ABC3-4BEA-B918-3739A4243706} = {2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD}
+		{2C2085A4-7C0E-4E3D-BFDC-CEB17FC01BFD} = {4D08F3D8-4311-4981-ACC5-38C0A3BFE06C}
+	EndGlobalSection
+EndGlobal
