@@ -26,26 +26,27 @@ int main()
 		printf("%ld\n", N);
 		return 0;
 	}
-	else if (isPrima(N))
+	
+	if (isPrima(N))
 	{
 		printf("%ld\n", N);
 		return 0;
 	}
 
 	bool next = false;
-	long current = N;
+	//long current = N;
 
-	for (long i = 2; i <= N; i++)
+	for (long i = 2; i * i <= N && N != 1; i++)
 	{
-		if (isPrima(i) && (current % i == 0))
+		if (isPrima(i) && (N % i == 0))
 		{
-			current /= i;
+			N /= i;
 
-			int count = 1;
+			long count = 1;
 
-			while ((current % i == 0) && current > 0)
+			while (N % i == 0)
 			{
-				current /= i;
+				N /= i;
 				count++;
 			}
 
@@ -55,11 +56,22 @@ int main()
 				next = true;
 
 			if (count == 1)
-				printf("%d", i, count);
+				printf("%ld", i, count);
 			else
-				printf("%d^%d", i, count);
+				printf("%ld^%ld", i, count);
 		}
 	}
+
+	if (N != 1)
+	{
+		if (next)
+			printf(" X ");
+		else
+			next = true;
+
+		printf("%ld", N);
+	}
+
 
 	printf("\n");
 
